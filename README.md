@@ -1,3 +1,8 @@
+**STOA**  
+STOA implements a genetic algorithm which can be used for the extraction of
+navigationally optimized hierarchies (spanning trees) of networks. For details
+please refer to the associated publication [[1](#pub)].
+
 The genetic algorithm and the scripts in the pythonscript directory require a
 working Java 1.7 as well as a Python 2.7 installation including the networkx
 and numpy packages.
@@ -36,3 +41,9 @@ A correctly formatted sample network file (the one used in the parametrization e
 *wiki-sample.txt*
 
 Additionally, various utility scripts are included in the pythonscript folder.
+
+**References**  
+  1. <a name="pub"></a> Stefan John, Michael Granitzer, Denis Helic. Extracting Navigation
+Hierarchies from Networks with Genetic Algorithms. In Proceedings of
+the 12th International Conference on Web Information Systems and
+Technologies.
